@@ -1,0 +1,16 @@
+Started by user Khushboo Ramdas Bhagat
+Running as SYSTEM
+Building in workspace /root/.jenkins/workspace/kush 1ST ASSIGNMENT
+[kush 1ST ASSIGNMENT] $ /bin/sh -xe /mnt/servers/apache-tomcat-9.0.82/temp/jenkins7939438359523434902.sh
++ sudo su
++ yum install httpd -y
+Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+Package httpd-2.4.58-1.amzn2.x86_64 already installed and latest version
+Nothing to do
++ service httpd start
+Redirecting to /bin/systemctl start httpd.service
++ echo 'THIS IS MY FIRST JOB'
++ chmod -R 644 /var/www/html/index.html
++ chkconfig httpd on
+Note: Forwarding request to 'systemctl enable httpd.service'.
+Finished: SUCCESS
